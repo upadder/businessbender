@@ -1,0 +1,186 @@
+h1{
+	    font-family: "PT Serif",TimesNewRoman,"Times New Roman",Times,Georgia,serif;
+	    font-weight: 700;
+	    font-size: 3rem;
+	    line-height: 3.4rem;
+	    
+	    
+	    letter-spacing: -.07rem;
+}
+p{
+	    font-family: "PT Serif",TimesNewRoman,"Times New Roman",Times,Georgia,serif;
+	    font-size: 1.1875rem;
+    	line-height: 1.9rem;
+	    color: #212121;
+		
+		display: block;
+	    margin-block-start: 1em;
+	    margin-block-end: 1em;
+	    margin-inline-start: 0px;
+	    margin-inline-end: 0px;
+}
+/*Social Media Icons*/
+.fa {
+  padding: 10px;
+  font-size: 22px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+
+}
+.nav-item{
+	transition: all 0.5s;
+}
+.nav-item:hover{
+	opacity: 0.9;
+	background-color: red;
+	/*transform: translateX(1.1px);*/
+	transform: scale(1.05);
+
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.9;
+  background-color: red;
+  color: white;
+
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #212529;
+  color: white;
+  margin-left: 850px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #212529;
+  color: white;
+}
+
+
+
+ /*body background*/
+
+.bodybackground{             
+	background-color: #f0f0ed; 
+}	
+
+/*uppercontent Content*/
+.upperContent{
+	width: 1300px;
+	position: relative;
+	
+	left: 120px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+/*header consist of logo and carousel*/
+.header{
+	position: relative;
+	width: 1200px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+/*carousel body*/
+
+.carousel {	
+	top: 0px;	
+	width: 700px;
+	margin-left: 0PX;
+	
+	float: left;
+	
+
+}
+
+ /*logo of company*/
+
+div.logo{                   
+	float: left;
+	margin-left: 80px;
+	padding: 0px;
+}
+/*second navbar*/
+.secondnavbar{				
+	clear: both;
+	
+	padding-top: 10px;
+
+}
+ /*lower content*/
+ .lowerContent{
+    width: 1300px;
+	position: relative;
+	background-color: #f8f9fa;
+	left: 120px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	
+ }
+/*Left Content*/
+
+.leftContent{
+	width: 800px;
+	float: left;
+	
+	
+}
+ /*h1 tag to go to investment link*/
+.investmentlink:hover{
+	color: red;
+	cursor: pointer;
+}
+/*********articles**********/
+.articles{
+	width: 800px;
+	display: flex;
+	transition: all 0.5s;
+}
+/*p tag for articles*/
+.articleLink:hover{
+	color: red;
+	cursor: pointer;
+	
+	transform: translateX(2px);
+}
+
+
+/*********Right Content*****************/
+.rightContent{
+
+float: right;
+margin: 0px;
+padding: 0px;
+width: 480px;
+margin-left: 10px;
+
+}
+.card{
+	margin-left: 28px;
+}
+.card-text{
+	color: white;
+	transition: all 0.5s;
+}
+.card-text:hover{
+
+	color: cyan;
+	cursor: pointer;
+	
+	transform: translateX(4.5px);
+}
+article img{
+	transition: all 0.5s;
+	border: 2px solid black;
+}
+article img:hover{
+	 transform: scale(1.02);
+}
